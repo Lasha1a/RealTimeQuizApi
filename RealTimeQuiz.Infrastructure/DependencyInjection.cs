@@ -9,5 +9,8 @@ namespace RealTimeQuiz.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructureDI()
+    public static IServiceCollection AddInfrastructureDI(this IServiceCollection services)
+    {
+        return services;
+    }
 }

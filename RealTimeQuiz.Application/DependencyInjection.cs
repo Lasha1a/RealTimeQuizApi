@@ -9,5 +9,8 @@ namespace RealTimeQuiz.Application;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApplicationDI()
+    public static IServiceCollection AddApplicationDI(this IServiceCollection services)
+    {
+        return services;
+    }
 }

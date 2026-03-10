@@ -9,5 +9,8 @@ namespace RealTimeQuiz.Persistence;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddPersisitenceDi()
+    public static IServiceCollection AddPersisitenceDi(this  IServiceCollection services)
+    {
+        return services;
+    }
 }

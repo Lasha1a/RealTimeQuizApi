@@ -10,4 +10,15 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealTimeQuiz.Application\RealTimeQuiz.Application.csproj" />
+    <ProjectReference Include="..\RealTimeQuiz.Domain\RealTimeQuiz.Domain.csproj" />
+    <ProjectReference Include="..\RealTimeQuiz.Infrastructure\RealTimeQuiz.Infrastructure.csproj" />
+    <ProjectReference Include="..\RealTimeQuiz.Persistence\RealTimeQuiz.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
