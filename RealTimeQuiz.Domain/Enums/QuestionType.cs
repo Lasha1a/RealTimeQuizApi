@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RealTimeQuiz.Domain.Entities;
+namespace RealTimeQuiz.Domain.Enums;
 
-public class Creator
+public enum QuestionType
 {
-
+    Single,
+    Multiple,
+    Rating,
+    Text
 }

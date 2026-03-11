@@ -17,13 +17,13 @@ public class Quiz : BaseEntity
     public QuizVisibility Visibility { get; private set; } = QuizVisibility.Public;
     public string AccessCode { get; private set; } = string.Empty;
     public bool IsAnonymousAllowed { get; private set; } = false;           
-    public DateTime StartsAt { get; private set; } = DateTime.UtcNow;
-    public DateTime EndsAt { get; private set; } = DateTime.UtcNow;
+    public DateTime StartsAt { get; private set; }
+    public DateTime EndsAt { get; private set; }
     public bool IsActive { get; private set; } = true;
     public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
 
 
-    public Creator Creator { get; private set; } = null!;
+    public User Creator { get; private set; } = null!;
     public IReadOnlyCollection<Question> Questions { get; private set; } = new List<Question>();
     public IReadOnlyCollection<Response> Responses { get; private set; } = new List<Response>();
     public QuizAnalytics? Analytics { get; private set; }
