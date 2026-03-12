@@ -1,15 +1,47 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using RealTimeQuiz.Application.Interfaces.PasswordHash;
 using RealTimeQuiz.Infrastructure.Security;
+using RealTimeQuiz.Infrastructure.Settings;
+using System.Text;
 
 namespace RealTimeQuiz.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructureDI(this IServiceCollection services)
+    public static IServiceCollection AddInfrastructureDI(this IServiceCollection services, IConfiguration configuration)
     {
 
+        //jwt config register
+        services.Configure<JwtSettings>(options =>
+            configuration.GetSection("JwtSettings").Bind(options));
+
+        //jwt authentication
+        var jwtSettings = configuration.GetSection("JwtSettings").Get<JwtSettings>();
+        services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = jwtSettings!.Issuer,
+                ValidAudience = jwtSettings.Audience,
+                IssuerSigningKey = new SymmetricSecurityKey(
+               Encoding.UTF8.GetBytes(jwtSettings.SecretKey))
+            };
+        });
+
         services.AddScoped<IPasswordHasher, PasswordHasher>();
+
         return services;
     }
 }
