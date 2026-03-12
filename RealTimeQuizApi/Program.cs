@@ -8,7 +8,7 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi("v1");
 
-builder.Services.AddMainApiDI();
+builder.Services.AddMainApiDI(builder.Configuration);
 
 var app = builder.Build();
 
