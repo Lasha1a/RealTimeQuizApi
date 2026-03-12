@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RealTimeQuiz.Application.Interfaces.GenericRepo;
 using RealTimeQuiz.Persistence.Data;
+using RealTimeQuiz.Persistence.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,8 @@ public static class DependencyInjection
     {
         services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(configurations.GetConnectionString("PostgreSQL")));
+
+        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
         return services;
     }
