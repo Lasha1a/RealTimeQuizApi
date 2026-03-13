@@ -4,11 +4,6 @@ using RealTimeQuiz.Application.Interfaces.Specifications;
 using RealTimeQuiz.Domain.Common;
 using RealTimeQuiz.Persistence.Data;
 using RealTimeQuiz.Persistence.Specifications.Evualator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RealTimeQuiz.Persistence.Repositories;
 

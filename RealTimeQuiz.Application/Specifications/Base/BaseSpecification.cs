@@ -1,12 +1,7 @@
 ﻿using RealTimeQuiz.Application.Interfaces.Specifications;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RealTimeQuiz.Persistence.Specifications.Base;
+namespace RealTimeQuiz.Application.Specifications.Base;
 
 public class BaseSpecification<T> : ISpecification<T>
 {
