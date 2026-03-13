@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\RealTimeQuiz.Application\RealTimeQuiz.Application.csproj" />
     <ProjectReference Include="..\RealTimeQuiz.Domain\RealTimeQuiz.Domain.csproj" />
     <ProjectReference Include="..\RealTimeQuiz.Infrastructure\RealTimeQuiz.Infrastructure.csproj" />
