@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using RealTimeQuiz.Application.Interfaces.JwtToken;
 using RealTimeQuiz.Infrastructure.Settings;
 using System;
@@ -15,9 +16,9 @@ public class TokenGenerator : ITokenGenerator
 {
     private readonly JwtSettings _jwtSettings;
 
-    public TokenGenerator(JwtSettings jwtSettings)
+    public TokenGenerator(IOptions<JwtSettings> jwtSettings)
     {
-        _jwtSettings = jwtSettings;
+        _jwtSettings = jwtSettings.Value;
     }
 
     public string GenerateToken(Guid userId, string email, string name)
