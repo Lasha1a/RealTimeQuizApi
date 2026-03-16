@@ -16,6 +16,8 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddPersisitenceDi(this  IServiceCollection services, IConfiguration configurations)
     {
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true); //fixes utcdatetime unspecified error in postgresql
+
         services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(configurations.GetConnectionString("PostgreSQL")));
 
