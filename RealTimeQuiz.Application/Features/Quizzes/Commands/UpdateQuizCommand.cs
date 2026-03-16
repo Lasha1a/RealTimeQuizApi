@@ -31,13 +31,13 @@ public class UpdateQuizCommandHandler : IRequestHandler<UpdateQuizCommand, QuizR
         var quiz = await _quizRepository.GetByIdAsync(request.QuizId);
         if (quiz == null)
         {
-            throw new Exception("quiz not found");
+            throw new KeyNotFoundException("quiz not found");
         }
 
         //making sure only creator can update the quiz 
         if(quiz.CreatorId != request.CreatorId)
         {
-            throw new Exception("unothorized to update quiz");
+            throw new UnauthorizedAccessException("unothorized to update quiz");
         }
 
         quiz.UpdateDetails(request.Title, request.Description);

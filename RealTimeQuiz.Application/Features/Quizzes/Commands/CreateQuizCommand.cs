@@ -40,7 +40,7 @@ public class CreateQuizCommandHandler : IRequestHandler<CreateQuizCommand, QuizR
         var creator = await _userRepository.GetByIdAsync(request.CreatorId);
         if(creator == null)
         {
-            throw new Exception("Creator not found");
+            throw new KeyNotFoundException("Creator not found");
         }
 
         var quiz = Quiz.Create(

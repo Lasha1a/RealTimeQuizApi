@@ -37,7 +37,7 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, U
             .FirstOrDefaultAsync(u => u.Email == request.Email, cancellationToken);
 
         if (existingUser != null)
-            throw new Exception("Email already in use");
+            throw new InvalidOperationException("Email already in use");
 
         var hashedPassword = _passwordHasher.HashPassword(request.Password);
         var user = User.Create(request.Username, request.Email, hashedPassword);

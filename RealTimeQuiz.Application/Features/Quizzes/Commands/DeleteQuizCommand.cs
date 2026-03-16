@@ -31,7 +31,7 @@ public class DeleteQuizCommandHandler : IRequestHandler<DeleteQuizCommand, bool>
 
         // Make sure only the creator can delete the quiz
         if (quiz.CreatorId != request.CreatorId)
-            throw new Exception("Unauthorized to delete this quiz");
+            throw new UnauthorizedAccessException("Unauthorized to delete this quiz");
 
         _quizRepository.Delete(quiz);
         await _quizRepository.SaveChangesAsync();

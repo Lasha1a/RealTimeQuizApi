@@ -40,12 +40,12 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, AuthRes
             .FirstOrDefaultAsync(u => u.Email == request.Email, cancellationToken);
 
         if (user == null)
-            throw new Exception("Invalid credentials");
+            throw new KeyNotFoundException("Invalid credentials");
 
         var isPasswordValid = _passwordHasher.VerifyPassword(request.Password, user.PasswordHash);
 
         if (!isPasswordValid)
-            throw new Exception("Invalid credentials");
+            throw new KeyNotFoundException("Invalid credentials");
 
         var token = _tokenGenerator.GenerateToken(user.Id, user.Email, user.Username);
 

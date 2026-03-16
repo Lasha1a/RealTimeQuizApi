@@ -32,7 +32,7 @@ public class ActivateQuizCommandHandler : IRequestHandler<ActivateQuizCommand, b
 
         // Only creator can activate/deactivate
         if (quiz.CreatorId != request.CreatorId)
-            throw new Exception("Unauthorized to modify this quiz");
+            throw new UnauthorizedAccessException("Unauthorized to modify this quiz");
 
         if (request.IsActive)
             quiz.Activate();

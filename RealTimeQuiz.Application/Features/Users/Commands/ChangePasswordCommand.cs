@@ -33,12 +33,12 @@ public class ChangePasswordCommandHandler : IRequestHandler<ChangePasswordComman
         var user = await _userRepository.GetByIdAsync(request.UserId);
 
         if (user == null)
-            throw new Exception("User not found");
+            throw new KeyNotFoundException("User not found");
 
         var isPasswordValid = _passwordHasher.VerifyPassword(request.CurrentPassword, user.PasswordHash);
 
         if (!isPasswordValid)
-            throw new Exception("Current password is incorrect");
+            throw new KeyNotFoundException("Current password is incorrect");
 
         var hashedPassword = _passwordHasher.HashPassword(request.NewPassword);
         user.UpdatePassword(hashedPassword);
