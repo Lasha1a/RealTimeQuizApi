@@ -1,0 +1,29 @@
+﻿using Microsoft.AspNetCore.SignalR;
+using RealTimeQuiz.Application.Interfaces.Hubs;
+
+namespace RealTimeQuiz.Infrastructure.Services.Hubs;
+
+public class QuizHubService : IQuizHubService
+{
+    private readonly IHubContext<QuizHub, IQuizHub> _hubContext;
+
+    public QuizHubService(IHubContext<QuizHub, IQuizHub> hubContext)
+    {
+        _hubContext = hubContext;
+    }
+
+    public async Task NotifyParticipantJoined(Guid quizId, int totalParticipnts) =>
+        await _hubContext.Clients
+            .Group($"quiz-{quizId}")
+            .ParticipantJoined(quizId, totalParticipnts);
+
+    public async Task NotifyAnswerSubmitted(Guid quizId, object stats) =>
+        await _hubContext.Clients
+            .Group($"quiz-{quizId}")
+            .AnswerSubmitted(quizId, stats);
+
+    public async Task NotifyQuizCompleted(Guid quizId)
+        => await _hubContext.Clients
+            .Group($"quiz-{quizId}")
+            .QuizCompleted(quizId);
+}

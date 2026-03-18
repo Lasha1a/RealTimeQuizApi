@@ -2,9 +2,11 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using RealTimeQuiz.Application.Interfaces.Hubs;
 using RealTimeQuiz.Application.Interfaces.JwtToken;
 using RealTimeQuiz.Application.Interfaces.PasswordHash;
 using RealTimeQuiz.Infrastructure.Security;
+using RealTimeQuiz.Infrastructure.Services.Hubs;
 using RealTimeQuiz.Infrastructure.Settings;
 using System.Text;
 
@@ -43,6 +45,7 @@ public static class DependencyInjection
 
         services.AddScoped<IPasswordHasher, PasswordHasher>();
         services.AddScoped<ITokenGenerator, TokenGenerator>();
+        services.AddScoped<IQuizHubService, QuizHubService>();
 
         return services;
     }

@@ -1,5 +1,6 @@
 using FluentValidation.AspNetCore;
 using RealTimeQuizApi;
+using RealTimeQuizApi.Hubs;
 using RealTimeQuizApi.Middleware;
 using Scalar.AspNetCore;
 
@@ -13,6 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation(); // for validations
 
 builder.Services.AddTransient<GlobalExceptionHandler>(); //middleware service
+
+builder.Services.AddSignalR(); //added signalr service
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi("v1");
@@ -36,5 +39,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapHub<QuizHub>("/hubs/quiz");
 
 app.Run();
