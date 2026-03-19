@@ -88,4 +88,24 @@ public class ResponseController : ControllerBase
         var result = await _mediator.Send(query);
         return Ok(result);
     }
+
+    [HttpPost("{id}/navigate")]
+    public async Task<IActionResult> NavigateQuestion(Guid id, [FromQuery] Guid questionId, [FromQuery] int questionIndex)
+    {
+        var creatorId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+
+        var command = new NavigateQuestionCommand(id, creatorId, questionId, questionIndex);
+        var result = await _mediator.Send(command);
+        return Ok(result);
+    }
+
+    [HttpPost("{id}/announce-results")]
+    public async Task<IActionResult> AnnounceResults(Guid id)
+    {
+        var creatorId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+
+        var command = new AnnounceResultsCommand(id, creatorId);
+        var result = await _mediator.Send(command);
+        return Ok(result);
+    }
 }
