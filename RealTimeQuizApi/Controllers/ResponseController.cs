@@ -90,6 +90,7 @@ public class ResponseController : ControllerBase
     }
 
     [HttpPost("{id}/navigate")]
+    [Authorize]
     public async Task<IActionResult> NavigateQuestion(Guid id, [FromQuery] Guid questionId, [FromQuery] int questionIndex)
     {
         var creatorId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
@@ -100,6 +101,7 @@ public class ResponseController : ControllerBase
     }
 
     [HttpPost("{id}/announce-results")]
+    [Authorize]
     public async Task<IActionResult> AnnounceResults(Guid id)
     {
         var creatorId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
