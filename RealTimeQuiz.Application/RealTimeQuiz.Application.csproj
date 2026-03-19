@@ -19,4 +19,8 @@
     <ProjectReference Include="..\RealTimeQuiz.Domain\RealTimeQuiz.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Analytics\Commands\" />
+  </ItemGroup>
+
 </Project>
