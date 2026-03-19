@@ -31,7 +31,7 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
-app.UseRateLimiter();
+app.UseRateLimiter(); //rate limitatiom
 
 app.UseMiddleware<GlobalExceptionHandler>(); //middleware
 

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using RealTimeQuiz.Application.DTOs.Response;
 using RealTimeQuiz.Application.Features.Responses.Commands;
 using RealTimeQuiz.Application.Features.Responses.Queries;
@@ -47,6 +48,7 @@ public class ResponseController : ControllerBase
         return Ok(result);
     }
 
+    [EnableRateLimiting("submit")]
     [HttpPost("submit-single")]
     public async Task<IActionResult> SubmitSingleAnswer([FromBody] SubmitSingleAnswerRequestDto request, [FromQuery] Guid responseId)
     {
@@ -61,6 +63,7 @@ public class ResponseController : ControllerBase
         return Ok(result);
     }
 
+    [EnableRateLimiting("submit")]
     [HttpPost("submit-all")]
     public async Task<IActionResult> SubmitAllAnswers([FromBody] SubmitAllAnswersRequestDto request, [FromQuery] Guid responseId)
     {

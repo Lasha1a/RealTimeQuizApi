@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using RealTimeQuiz.Application.DTOs.User;
 using RealTimeQuiz.Application.Features.Users.Commands;
 using RealTimeQuiz.Application.Features.Users.Queries;
@@ -20,6 +21,7 @@ public class AuthController : ControllerBase
         _mediator = mediator;
     }
 
+    [EnableRateLimiting("auth")]
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterRequestDto request)
     {
@@ -32,6 +34,7 @@ public class AuthController : ControllerBase
         return Ok(result);
     }
 
+    [EnableRateLimiting("auth")]
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginRequestDto request)
     {
