@@ -11,4 +11,6 @@ public interface IQuizHubService
     Task NotifyParticipantJoined(Guid quizId, int totalParticipants);
     Task NotifyAnswerSubmitted(Guid quizId, object stats);
     Task NotifyQuizCompleted(Guid quizId);
+    Task NotifyQuestionNavigation(Guid quizId, Guid questionId, int questionIndex); 
+    Task NotifyFinalResults(Guid quizId, object results); 
 }

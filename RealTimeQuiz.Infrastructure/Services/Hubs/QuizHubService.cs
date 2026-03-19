@@ -26,4 +26,14 @@ public class QuizHubService : IQuizHubService
         => await _hubContext.Clients
             .Group($"quiz-{quizId}")
             .QuizCompleted(quizId);
+
+    public async Task NotifyQuestionNavigation(Guid quizId,Guid questionId, int questionIndex) =>
+        await _hubContext.Clients
+            .Group($"quiz - {quizId}")
+            .QuestionNavigationAsync(quizId, questionId, questionIndex);
+
+    public async Task NotifyFinalResults(Guid quizId,object results) =>
+        await _hubContext.Clients
+            .Group($"quiz-{quizId}")
+            .FinalResultsAnnouncement(quizId, results);
 }
