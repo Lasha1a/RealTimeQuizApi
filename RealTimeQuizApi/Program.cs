@@ -31,6 +31,8 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 }
 
+app.UseRateLimiter();
+
 app.UseMiddleware<GlobalExceptionHandler>(); //middleware
 
 app.UseHttpsRedirection();
