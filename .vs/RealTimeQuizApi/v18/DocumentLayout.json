@@ -1,0 +1,1134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Backend\\repos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|d:\\projects\\backend\\repos\\realtimequiz.infrastructure\\services\\rediscache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|solutionrelative:realtimequiz.infrastructure\\services\\rediscache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\interfaces\\rediscache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\interfaces\\rediscache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\responsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\responsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|d:\\projects\\backend\\repos\\realtimequiz.persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|solutionrelative:realtimequiz.persistence\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\analytics\\quizanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\analytics\\quizanalyticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\analytics\\queries\\getquizanalyticsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\analytics\\queries\\getquizanalyticsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\analytics\\questiondistributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\analytics\\questiondistributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\analytics\\optiondistributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\analytics\\optiondistributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\startresponsecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\startresponsecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\announceresultscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\announceresultscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\navigatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\navigatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|d:\\projects\\backend\\repos\\realtimequiz.infrastructure\\services\\hubs\\quizhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|solutionrelative:realtimequiz.infrastructure\\services\\hubs\\quizhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\interfaces\\hubs\\iquizhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\interfaces\\hubs\\iquizhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\interfaces\\hubs\\iquizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\interfaces\\hubs\\iquizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\completeresponsecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\completeresponsecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\queries\\getresponsesbyquizquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\queries\\getresponsesbyquizquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\submitallanswerscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\submitallanswerscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B3601F-071A-4A00-B49D-E34A9857AA33}|RealTimeQuiz.Domain\\RealTimeQuiz.Domain.csproj|d:\\projects\\backend\\repos\\realtimequiz.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B3601F-071A-4A00-B49D-E34A9857AA33}|RealTimeQuiz.Domain\\RealTimeQuiz.Domain.csproj|solutionrelative:realtimequiz.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\responses\\commands\\submitsingleanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\responses\\commands\\submitsingleanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|d:\\projects\\backend\\repos\\realtimequiz.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|solutionrelative:realtimequiz.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|d:\\projects\\backend\\repos\\realtimequiz.infrastructure\\services\\hubs\\quizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB1D2D4-C889-444A-9F0A-29DADE5BC486}|RealTimeQuiz.Infrastructure\\RealTimeQuiz.Infrastructure.csproj|solutionrelative:realtimequiz.infrastructure\\services\\hubs\\quizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\hubs\\quizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\hubs\\quizhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\answeroptions\\commands\\createansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\answeroptions\\commands\\createansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\response\\submitsingleanswerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\response\\submitsingleanswerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\response\\startresponserequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\response\\startresponserequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\response\\submitallanswersrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\response\\submitallanswersrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\response\\submitallanswersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\response\\submitallanswersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\response\\startresponserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\response\\startresponserequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\response\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\response\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\response\\submitsingleanswerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\response\\submitsingleanswerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\answeroption\\createansweroptionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\answeroption\\createansweroptionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\question\\answeroptionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\question\\answeroptionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\answeroptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\answeroptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\answeroptions\\queries\\getansweroptionsbyquestionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\answeroptions\\queries\\getansweroptionsbyquestionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\specifications\\answeroptions\\getansweroptionsbyquestionspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\specifications\\answeroptions\\getansweroptionsbyquestionspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\answeroptions\\commands\\deleteansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\answeroptions\\commands\\deleteansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\answeroptions\\commands\\updateansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\answeroptions\\commands\\updateansweroptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\answeroptions\\updateansweroptionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\answeroptions\\updateansweroptionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\answeroptions\\createansweroptionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\answeroptions\\createansweroptionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\answeroption\\updateansweroptionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\answeroption\\updateansweroptionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\questions\\commands\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\questions\\commands\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\specifications\\questions\\getquestionsbyquizspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\specifications\\questions\\getquestionsbyquizspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\questions\\queries\\getquestionsbyquizquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\questions\\queries\\getquestionsbyquizquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\questions\\commands\\deletequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\questions\\commands\\deletequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\questions\\commands\\updatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\questions\\commands\\updatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\question\\updatequestionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\question\\updatequestionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\validators\\question\\createquestionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\validators\\question\\createquestionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\question\\questionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\question\\questionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\question\\updatequestionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\question\\updatequestionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\dtos\\question\\createquestionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\dtos\\question\\createquestionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3B3601F-071A-4A00-B49D-E34A9857AA33}|RealTimeQuiz.Domain\\RealTimeQuiz.Domain.csproj|d:\\projects\\backend\\repos\\realtimequiz.domain\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3B3601F-071A-4A00-B49D-E34A9857AA33}|RealTimeQuiz.Domain\\RealTimeQuiz.Domain.csproj|solutionrelative:realtimequiz.domain\\enums\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\quizzes\\commands\\createquizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\quizzes\\commands\\createquizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\quizzes\\commands\\deletequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\quizzes\\commands\\deletequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\quizzes\\commands\\updatequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\quizzes\\commands\\updatequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\users\\commands\\changepasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\users\\commands\\changepasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\quizzes\\commands\\activatequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\quizzes\\commands\\activatequizcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|d:\\projects\\backend\\repos\\realtimequiz.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|solutionrelative:realtimequiz.persistence\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|d:\\projects\\backend\\repos\\realtimequizapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BFF654-5AC5-4807-B22C-E235959D7DC5}|RealTimeQuizApi\\RealTimeQuizApi.csproj|solutionrelative:realtimequizapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\features\\quizzes\\queries\\getquizzesbycreatorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\features\\quizzes\\queries\\getquizzesbycreatorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|d:\\projects\\backend\\repos\\realtimequiz.application\\specifications\\quizzes\\getquizzesbycreatorspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43088F12-D78F-43A6-B8C1-942B667EE170}|RealTimeQuiz.Application\\RealTimeQuiz.Application.csproj|solutionrelative:realtimequiz.application\\specifications\\quizzes\\getquizzesbycreatorspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|d:\\projects\\backend\\repos\\realtimequiz.persistence\\migrations\\20260316080826_fixeddockererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF2516-E4DF-4FAA-8374-2E4886BAFB32}|RealTimeQuiz.Persistence\\RealTimeQuiz.Persistence.csproj|solutionrelative:realtimequiz.persistence\\migrations\\20260316080826_fixeddockererrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\RedisCache\\CacheService.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Infrastructure\\Services\\RedisCache\\CacheService.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\RedisCache\\CacheService.cs",
+              "RelativeToolTip": "RealTimeQuiz.Infrastructure\\Services\\RedisCache\\CacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T12:03:31.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\RedisCache\\ICacheService.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Interfaces\\RedisCache\\ICacheService.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\RedisCache\\ICacheService.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Interfaces\\RedisCache\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:53:43.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:15:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\DependencyInjection.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\DependencyInjection.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T11:01:06.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:26:31.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\ResponseController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\ResponseController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\ResponseController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\ResponseController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAE4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:07:07.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizAnalyticsDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\QuizAnalyticsDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Analytics\\QuizAnalyticsDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\QuizAnalyticsDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Analytics\\QuizAnalyticsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:41:13.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Program.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Program.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Program.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:25:52.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Persistence\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RealTimeQuiz.Persistence\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:47:05.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetQuizAnalyticsQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Analytics\\Queries\\GetQuizAnalyticsQuery.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Analytics\\Queries\\GetQuizAnalyticsQuery.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Analytics\\Queries\\GetQuizAnalyticsQuery.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Analytics\\Queries\\GetQuizAnalyticsQuery.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAFIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:46:55.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\QuestionController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:50:06.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionDistributionDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\QuestionDistributionDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Analytics\\QuestionDistributionDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\QuestionDistributionDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Analytics\\QuestionDistributionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:42:03.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OptionDistributionDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\OptionDistributionDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Analytics\\OptionDistributionDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Analytics\\OptionDistributionDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Analytics\\OptionDistributionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:42:54.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AnnounceResultsCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\AnnounceResultsCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\AnnounceResultsCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\AnnounceResultsCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\AnnounceResultsCommand.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAE4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:34:26.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavigateQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\NavigateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\NavigateQuestionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\NavigateQuestionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\NavigateQuestionCommand.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:21:05.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CompleteResponseCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\CompleteResponseCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\CompleteResponseCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\CompleteResponseCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\CompleteResponseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:32:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StartResponseCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\StartResponseCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\StartResponseCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\StartResponseCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\StartResponseCommand.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:05:21.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubmitSingleAnswerCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitSingleAnswerCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitSingleAnswerCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitSingleAnswerCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitSingleAnswerCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T09:13:40.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IQuizHubService.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHubService.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHubService.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHubService.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:16:38.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuizHubService.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHubService.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHubService.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHubService.cs",
+              "RelativeToolTip": "RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHubService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:19:00.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IQuizHub.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHub.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHub.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHub.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Interfaces\\Hubs\\IQuizHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T07:35:05.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubmitAllAnswersCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitAllAnswersCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitAllAnswersCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitAllAnswersCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Commands\\SubmitAllAnswersCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:19:14.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetResponsesByQuizQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Queries\\GetResponsesByQuizQuery.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Responses\\Queries\\GetResponsesByQuizQuery.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Responses\\Queries\\GetResponsesByQuizQuery.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Responses\\Queries\\GetResponsesByQuizQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T10:44:06.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "RealTimeQuiz.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:31:38.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuizHub.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHub.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHub.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHub.cs",
+              "RelativeToolTip": "RealTimeQuiz.Infrastructure\\Services\\Hubs\\QuizHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T08:24:24.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "RealTimeQuiz.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:49:36.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuizHub.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Hubs\\QuizHub.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Hubs\\QuizHub.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Hubs\\QuizHub.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Hubs\\QuizHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T07:38:30.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SubmitSingleAnswerRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\SubmitSingleAnswerRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\Response\\SubmitSingleAnswerRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\SubmitSingleAnswerRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\Response\\SubmitSingleAnswerRequestValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:34:37.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Response\\ResponseDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\ResponseDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Response\\ResponseDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:30:22.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SubmitAllAnswersRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\SubmitAllAnswersRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Response\\SubmitAllAnswersRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\SubmitAllAnswersRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Response\\SubmitAllAnswersRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:29:27.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StartResponseRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\StartResponseRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\Response\\StartResponseRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\StartResponseRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\Response\\StartResponseRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:33:42.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateAnswerOptionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\CreateAnswerOptionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\CreateAnswerOptionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\CreateAnswerOptionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\CreateAnswerOptionCommand.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:05:18.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SubmitAllAnswersRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\SubmitAllAnswersRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\Response\\SubmitAllAnswersRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Response\\SubmitAllAnswersRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\Response\\SubmitAllAnswersRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:38:42.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubmitSingleAnswerRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\SubmitSingleAnswerRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Response\\SubmitSingleAnswerRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\SubmitSingleAnswerRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Response\\SubmitSingleAnswerRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T11:28:33.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StartResponseRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\StartResponseRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Response\\StartResponseRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Response\\StartResponseRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Response\\StartResponseRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:32:27.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AnswerOptionController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AnswerOptionController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\AnswerOptionController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\AnswerOptionController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\AnswerOptionController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:37:38.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetAnswerOptionsByQuestionQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Queries\\GetAnswerOptionsByQuestionQuery.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Queries\\GetAnswerOptionsByQuestionQuery.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Queries\\GetAnswerOptionsByQuestionQuery.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Queries\\GetAnswerOptionsByQuestionQuery.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:33:56.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AnswerOptionResponseDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\AnswerOptionResponseDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Question\\AnswerOptionResponseDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\AnswerOptionResponseDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Question\\AnswerOptionResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:52:27.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateAnswerOptionRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\AnswerOption\\CreateAnswerOptionRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\AnswerOption\\CreateAnswerOptionRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\AnswerOption\\CreateAnswerOptionRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\AnswerOption\\CreateAnswerOptionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:52:01.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetAnswerOptionsByQuestionSpec.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\AnswerOptions\\GetAnswerOptionsByQuestionSpec.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Specifications\\AnswerOptions\\GetAnswerOptionsByQuestionSpec.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\AnswerOptions\\GetAnswerOptionsByQuestionSpec.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Specifications\\AnswerOptions\\GetAnswerOptionsByQuestionSpec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:35:03.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeleteAnswerOptionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\DeleteAnswerOptionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\DeleteAnswerOptionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\DeleteAnswerOptionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\DeleteAnswerOptionCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:20:44.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UpdateAnswerOptionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\UpdateAnswerOptionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\UpdateAnswerOptionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\UpdateAnswerOptionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\AnswerOptions\\Commands\\UpdateAnswerOptionCommand.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:15:02.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateAnswerOptionRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\AnswerOptions\\UpdateAnswerOptionRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\AnswerOptions\\UpdateAnswerOptionRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\AnswerOptions\\UpdateAnswerOptionRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\AnswerOptions\\UpdateAnswerOptionRequestValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:01:21.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateAnswerOptionRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\AnswerOptions\\CreateAnswerOptionRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\AnswerOptions\\CreateAnswerOptionRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\AnswerOptions\\CreateAnswerOptionRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\AnswerOptions\\CreateAnswerOptionRequestValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:00:17.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateAnswerOptionRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\AnswerOption\\UpdateAnswerOptionRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\AnswerOption\\UpdateAnswerOptionRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\AnswerOption\\UpdateAnswerOptionRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\AnswerOption\\UpdateAnswerOptionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:53:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetQuestionsByQuizSpec.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\Questions\\GetQuestionsByQuizSpec.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Specifications\\Questions\\GetQuestionsByQuizSpec.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\Questions\\GetQuestionsByQuizSpec.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Specifications\\Questions\\GetQuestionsByQuizSpec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:41:48.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetQuestionsByQuizQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Queries\\GetQuestionsByQuizQuery.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Questions\\Queries\\GetQuestionsByQuizQuery.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Queries\\GetQuestionsByQuizQuery.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Questions\\Queries\\GetQuestionsByQuizQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:35:36.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeleteQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\DeleteQuestionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\DeleteQuestionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\DeleteQuestionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\DeleteQuestionCommand.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:04.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\CreateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\CreateQuestionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\CreateQuestionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\CreateQuestionCommand.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:02:27.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\UpdateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\UpdateQuestionCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Questions\\Commands\\UpdateQuestionCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Questions\\Commands\\UpdateQuestionCommand.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:20:33.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UpdateQuestionRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Question\\UpdateQuestionRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\Question\\UpdateQuestionRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Question\\UpdateQuestionRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\Question\\UpdateQuestionRequestValidator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:56:42.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreateQuestionRequestValidator.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Question\\CreateQuestionRequestValidator.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Validators\\Question\\CreateQuestionRequestValidator.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Validators\\Question\\CreateQuestionRequestValidator.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Validators\\Question\\CreateQuestionRequestValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:54:55.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "QuestionResponseDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\QuestionResponseDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Question\\QuestionResponseDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\QuestionResponseDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Question\\QuestionResponseDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:48:38.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UpdateQuestionRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\UpdateQuestionRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Question\\UpdateQuestionRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\UpdateQuestionRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Question\\UpdateQuestionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:48:04.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CreateQuestionRequestDto.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\CreateQuestionRequestDto.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\DTOs\\Question\\CreateQuestionRequestDto.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\DTOs\\Question\\CreateQuestionRequestDto.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\DTOs\\Question\\CreateQuestionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:46:48.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Domain\\Enums\\QuestionType.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Domain\\Enums\\QuestionType.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Domain\\Enums\\QuestionType.cs",
+              "RelativeToolTip": "RealTimeQuiz.Domain\\Enums\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:43:47.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CreateQuizCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\CreateQuizCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\CreateQuizCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\CreateQuizCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\CreateQuizCommand.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:34:07.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UpdateQuizCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\UpdateQuizCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\UpdateQuizCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\UpdateQuizCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\UpdateQuizCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:33:14.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:32:44.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ChangePasswordCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\ChangePasswordCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Users\\Commands\\ChangePasswordCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\ChangePasswordCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Users\\Commands\\ChangePasswordCommand.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:32:12.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:30:22.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DeleteQuizCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\DeleteQuizCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\DeleteQuizCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\DeleteQuizCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\DeleteQuizCommand.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:59:37.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:22:53.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Persistence\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\DependencyInjection.cs",
+              "RelativeToolTip": "RealTimeQuiz.Persistence\\DependencyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:43:22.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "RealTimeQuizApi\\Controllers\\QuizController.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuizApi\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "RealTimeQuizApi\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:12:06.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ActivateQuizCommand.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\ActivateQuizCommand.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\ActivateQuizCommand.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\ActivateQuizCommand.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Quizzes\\Commands\\ActivateQuizCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:02:08.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "GetQuizzesByCreatorSpec.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\Quizzes\\GetQuizzesByCreatorSpec.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Specifications\\Quizzes\\GetQuizzesByCreatorSpec.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Specifications\\Quizzes\\GetQuizzesByCreatorSpec.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Specifications\\Quizzes\\GetQuizzesByCreatorSpec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:54:03.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GetQuizzesByCreatorQuery.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Queries\\GetQuizzesByCreatorQuery.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Application\\Features\\Quizzes\\Queries\\GetQuizzesByCreatorQuery.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Application\\Features\\Quizzes\\Queries\\GetQuizzesByCreatorQuery.cs",
+              "RelativeToolTip": "RealTimeQuiz.Application\\Features\\Quizzes\\Queries\\GetQuizzesByCreatorQuery.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:41:37.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20260316080826_fixedDockerErrors.cs",
+              "DocumentMoniker": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\Migrations\\20260316080826_fixedDockerErrors.cs",
+              "RelativeDocumentMoniker": "RealTimeQuiz.Persistence\\Migrations\\20260316080826_fixedDockerErrors.cs",
+              "ToolTip": "D:\\Projects\\Backend\\repos\\RealTimeQuiz.Persistence\\Migrations\\20260316080826_fixedDockerErrors.cs",
+              "RelativeToolTip": "RealTimeQuiz.Persistence\\Migrations\\20260316080826_fixedDockerErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:08:26.769Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
