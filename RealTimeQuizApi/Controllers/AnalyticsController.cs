@@ -11,7 +11,7 @@ public class AnalyticsController : ControllerBase
 {
     private readonly ISender _mediator;
 
-    public AnalyticsController(ISender mediator)
+    public AnalyticsController(ISender mediator) 
     {
         _mediator = mediator;
     }
