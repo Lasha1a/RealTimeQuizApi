@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using RealTimeQuiz.Application.DTOs.Quiz;
 using RealTimeQuiz.Application.Interfaces.GenericRepo;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
 using RealTimeQuiz.Domain.Entities;
 using RealTimeQuiz.Application.Specifications.Quizzes;
 
@@ -11,14 +12,20 @@ public record GetQuizByIdQuery(Guid QuizId) : IRequest<QuizResponseDto>;
 public class GetQuizByIdQueryHandler : IRequestHandler<GetQuizByIdQuery, QuizResponseDto>
 {
     private readonly IGenericRepository<Quiz> _quizRepository;
+    private readonly ICacheService _cacheService;
 
-    public GetQuizByIdQueryHandler(IGenericRepository<Quiz> quizRepository)
+    public GetQuizByIdQueryHandler(IGenericRepository<Quiz> quizRepository,  ICacheService cacheService)
     {
         _quizRepository = quizRepository;
+        _cacheService = cacheService;
     }
 
     public async Task<QuizResponseDto> Handle(GetQuizByIdQuery request, CancellationToken cancellationToken)
     {
+        var cacheKey = $"quiz-{request.QuizId}";
+        
+        var cache = await _cacheService.GetAsync<QuizResponseDto>(cacheKey); 
+        if (cache != null) return cache;
         // Use spec to include Creator so we can get username
         var spec = new GetQuizWithCreatorSpec(request.QuizId);
         var quiz = await _quizRepository.GetEntityWithSpec(spec);
@@ -26,7 +33,7 @@ public class GetQuizByIdQueryHandler : IRequestHandler<GetQuizByIdQuery, QuizRes
         if (quiz == null)
             throw new Exception("Quiz not found");
 
-        return new QuizResponseDto
+        var result = new QuizResponseDto
         {
             Id = quiz.Id,
             Title = quiz.Title,
@@ -41,5 +48,9 @@ public class GetQuizByIdQueryHandler : IRequestHandler<GetQuizByIdQuery, QuizRes
             CreatedAt = quiz.CreatedAt,
             CreatorUsername = quiz.Creator.Username
         };
+        
+        await _cacheService.SetAsync(cacheKey, result, TimeSpan.FromMinutes(15));
+        
+        return result;
     }
 }

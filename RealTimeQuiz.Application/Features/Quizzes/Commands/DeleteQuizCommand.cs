@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
 
 namespace RealTimeQuiz.Application.Features.Quizzes.Commands;
 
@@ -16,10 +17,12 @@ public record DeleteQuizCommand(
 public class DeleteQuizCommandHandler : IRequestHandler<DeleteQuizCommand, bool>
 {
     private readonly IGenericRepository<Quiz> _quizRepository;
+    private readonly ICacheService _cacheService;
 
-    public DeleteQuizCommandHandler(IGenericRepository<Quiz> quizRepository)
+    public DeleteQuizCommandHandler(IGenericRepository<Quiz> quizRepository, ICacheService cacheService)
     {
         _quizRepository = quizRepository;
+        _cacheService = cacheService;
     }
 
     public async Task<bool> Handle(DeleteQuizCommand request, CancellationToken cancellationToken)
@@ -35,6 +38,10 @@ public class DeleteQuizCommandHandler : IRequestHandler<DeleteQuizCommand, bool>
 
         _quizRepository.Delete(quiz);
         await _quizRepository.SaveChangesAsync();
+        
+        await _cacheService.RemoveAsync($"quiz-{request.QuizId}");
+        await _cacheService.RemoveAsync($"quiz-questions-{request.QuizId}");
+        await _cacheService.RemoveAsync($"quiz-analytics-{request.QuizId}");
 
         return true;
     }

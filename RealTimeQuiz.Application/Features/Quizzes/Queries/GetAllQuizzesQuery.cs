@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
 
 namespace RealTimeQuiz.Application.Features.Quizzes.Queries;
 
@@ -19,19 +20,26 @@ public record GetAllQuizzesQuery(
 public class GetAllQuizzesQueryHandler : IRequestHandler<GetAllQuizzesQuery, List<QuizResponseDto>>
 {
     private readonly IGenericRepository<Quiz> _quizRepository;
+    private readonly ICacheService _cacheService;
 
-    public GetAllQuizzesQueryHandler(IGenericRepository<Quiz> quizRepository)
+    public GetAllQuizzesQueryHandler(IGenericRepository<Quiz> quizRepository,  ICacheService cacheService)
     {
         _quizRepository = quizRepository;
+        _cacheService = cacheService;
     }
 
     public async Task<List<QuizResponseDto>> Handle(GetAllQuizzesQuery request,CancellationToken cancellationToken)
     {
+        var cacheKey = $"quizzes-page-{request.PageNumber}-{request.PageSize}";
+        
+        var cached =  await _cacheService.GetAsync<List<QuizResponseDto>>(cacheKey);
+        if (cached != null) return cached;  
+        
         var spec = new GetAllQuizzesSpec(request.PageNumber, request.PageSize);
         var quizzes = await _quizRepository.GetQueryWithSpec(spec)
             .ToListAsync(cancellationToken);
 
-        return quizzes.Select(quiz => new QuizResponseDto
+        var result = quizzes.Select(quiz => new QuizResponseDto
         {
             Id = quiz.Id,
             Title = quiz.Title,
@@ -46,6 +54,10 @@ public class GetAllQuizzesQueryHandler : IRequestHandler<GetAllQuizzesQuery, Lis
             CreatedAt = quiz.CreatedAt,
             CreatorUsername = quiz.Creator.Username
         }).ToList();
+        
+        await _cacheService.SetAsync(cacheKey, result, TimeSpan.FromMinutes(15)); 
+        
+        return result;
     }
 }
 

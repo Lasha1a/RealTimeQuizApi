@@ -9,6 +9,8 @@ using RealTimeQuiz.Infrastructure.Security;
 using RealTimeQuiz.Infrastructure.Services.Hubs;
 using RealTimeQuiz.Infrastructure.Settings;
 using System.Text;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
+using RealTimeQuiz.Infrastructure.Services.RedisCache;
 
 namespace RealTimeQuiz.Infrastructure;
 
@@ -46,6 +48,7 @@ public static class DependencyInjection
         services.AddScoped<IPasswordHasher, PasswordHasher>();
         services.AddScoped<ITokenGenerator, TokenGenerator>();
         services.AddScoped<IQuizHubService, QuizHubService>();
+        services.AddScoped<ICacheService, CacheService>();
 
         return services;
     }

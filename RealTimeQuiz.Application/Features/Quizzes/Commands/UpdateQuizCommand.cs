@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using RealTimeQuiz.Application.DTOs.Quiz;
 using RealTimeQuiz.Application.Interfaces.GenericRepo;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
 using RealTimeQuiz.Domain.Entities;
 using RealTimeQuiz.Domain.Enums;
 
@@ -20,10 +21,12 @@ public record UpdateQuizCommand(
 public class UpdateQuizCommandHandler : IRequestHandler<UpdateQuizCommand, QuizResponseDto>
 {
     private readonly IGenericRepository<Quiz> _quizRepository;
+    private readonly ICacheService _cacheService;
 
-    public UpdateQuizCommandHandler(IGenericRepository<Quiz> quizRepository)
+    public UpdateQuizCommandHandler(IGenericRepository<Quiz> quizRepository,  ICacheService cacheService)
     {
         _quizRepository = quizRepository;
+        _cacheService = cacheService;
     }
 
     public async Task<QuizResponseDto> Handle(UpdateQuizCommand request, CancellationToken cancellationToken)
@@ -57,6 +60,8 @@ public class UpdateQuizCommandHandler : IRequestHandler<UpdateQuizCommand, QuizR
 
         _quizRepository.Update(quiz);
         await _quizRepository.SaveChangesAsync();
+        
+        await _cacheService.RemoveAsync($"quiz-{request.QuizId}");
 
         return new QuizResponseDto
         {

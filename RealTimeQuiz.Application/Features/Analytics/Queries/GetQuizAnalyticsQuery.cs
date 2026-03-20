@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using RealTimeQuiz.Application.DTOs.Analytics;
 using RealTimeQuiz.Application.Interfaces.GenericRepo;
+using RealTimeQuiz.Application.Interfaces.RedisCache;
 using RealTimeQuiz.Domain.Entities;
 
 namespace RealTimeQuiz.Application.Features.Analytics.Queries;
@@ -14,21 +15,29 @@ public class GetQuizAnalyticsQueryHandler : IRequestHandler<GetQuizAnalyticsQuer
     private readonly IGenericRepository<Response> _responseRepository;
     private readonly IGenericRepository<ResponseAnswer> _responseAnswerRepository;
     private readonly IGenericRepository<Question> _questionRepository;
+    private readonly ICacheService _cacheService;
 
     public GetQuizAnalyticsQueryHandler(
         IGenericRepository<Quiz> quizRepository,
         IGenericRepository<Response> responseRepository,
         IGenericRepository<ResponseAnswer> responseAnswerRepository,
-        IGenericRepository<Question> questionRepository)
+        IGenericRepository<Question> questionRepository,
+        ICacheService cacheService)
     {
         _quizRepository = quizRepository;
         _responseRepository = responseRepository;
         _responseAnswerRepository = responseAnswerRepository;
         _questionRepository = questionRepository;
+        _cacheService = cacheService;
     }
 
     public async Task<QuizAnalyticsDto> Handle(GetQuizAnalyticsQuery request, CancellationToken cancellationToken)
     {
+        var cacheKey = $"quiz-analytics-{request.QuizId}";
+        
+        var cached = await _cacheService.GetAsync<QuizAnalyticsDto>(cacheKey);
+        if(cached != null) return cached;
+        
         var quiz = await _quizRepository.GetByIdAsync(request.QuizId);
 
         if (quiz == null)
@@ -98,7 +107,7 @@ public class GetQuizAnalyticsQueryHandler : IRequestHandler<GetQuizAnalyticsQuer
             });
         }
 
-        return new QuizAnalyticsDto
+        var result =  new QuizAnalyticsDto
         {
             QuizId = request.QuizId,
             TotalResponses = totalResponses,
@@ -108,5 +117,9 @@ public class GetQuizAnalyticsQueryHandler : IRequestHandler<GetQuizAnalyticsQuer
             QuestionDistributions = questionDistributions,
             LastCalculatedAt = DateTime.UtcNow
         };
+        
+        await _cacheService.SetAsync(cacheKey, result, TimeSpan.FromMinutes(15));
+        
+        return result;
     }
 }
