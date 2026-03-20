@@ -19,6 +19,12 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructureDI(this IServiceCollection services, IConfiguration configuration)
     {
 
+        services.AddStackExchangeRedisCache(options =>
+        {
+            options.Configuration = configuration.GetSection("Redis")["ConnectionString"];
+            options.InstanceName = configuration.GetSection("Redis")["InstanceName"];
+        });
+
         //jwt config register
         services.Configure<JwtSettings>(options =>
             configuration.GetSection("JwtSettings").Bind(options));
